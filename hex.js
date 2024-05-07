@@ -13,3 +13,5 @@ btn.addEventListener("click", () => {
     document.body.style.backgroundColor = hexColor;
     color.textContent = hexColor;
 });
+
+//Este es un comentario

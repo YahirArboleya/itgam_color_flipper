@@ -4,6 +4,7 @@ const btn = document.getElementById("btn");
 
 const color = document.querySelector(".color");
 
+// add event listener in the button
 btn.addEventListener("click", () => {
     let hexColor = "#";
     for (let i = 0; i < 6; i++) {

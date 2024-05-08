@@ -11,5 +11,6 @@ btn.addEventListener("click", () => {
         hexColor += hex[Math.floor(Math.random() * hex.length)];
     }
     document.body.style.backgroundColor = hexColor;
-    color.textContent = hexColor;
+    color.textContent = hexColor; 
+    color.style.color = hexColor;
 });
